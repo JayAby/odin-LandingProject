@@ -1,0 +1,25 @@
+.header{
+    background-color: #1f2937;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.subtext,
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img{
+    width: 300px;
+    height: 160px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
