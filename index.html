@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
     <head>
+        <meta charset="UTF-8">
         <!-- Title of the webpage -->
         <title>iamJo3l </title>
         <link rel="stylesheet" href="styles.css">
@@ -10,28 +10,34 @@
     <body>
         <!-- Adding the Logo to the site -->
         <div class="header">
-            <img src="./Images/Logo.jpg" alt="Image showing iamJo3l logo.">
-
-            <!-- Adding links to the project -->
-            <ul class="links">
-                <li><a href="https://www.instagram.com/iamjo3l/?hl=en" target="_blank" rel="noopener noreferrer">About</a></li>
-                <li><a href="https://biblehub.com/psalms/50-15.htm" target="_blank" rel="noopener noreferrer">Click me!</a></li>
-                <li><a href="https://www.youtube.com/watch?v=SzDG7rRigV8&ab_channel=RockMusicCollection" target="_blank" rel="noopener noreferrer">Rock and Roll</a></li>
-            </ul>
-
-            <div class="hero">
-                Who is Jo3l?
-                <!-- Adding a little bit of subtext, which is going to be smaller than the header -->
-                <div class="subtext">
-                I am Joel, and I like learning new programming languages which is exactly what I am doing right now.
-                Use The Odin Project, It is a good website for learning HTML and CSS, I have learnt a lot within the past few months 
-                that I have been using the website. 
+            <div class="header-container">
+            <div class="logo"> <img src="./Images/Logo.jpg" alt="Image showing iamJo3l logo."> </div>
+                <!-- Adding links to the project -->
+                <ul class="links">
+                    <li><a href="https://www.instagram.com/iamjo3l/?hl=en" target="_blank" rel="noopener noreferrer">About</a></li>
+                    <li><a href="https://biblehub.com/psalms/50-15.htm" target="_blank" rel="noopener noreferrer">Click me!</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=SzDG7rRigV8&ab_channel=RockMusicCollection" target="_blank" rel="noopener noreferrer">Rock and Roll</a></li>
+                </ul>
             </div>
-            <!-- Adding an image -->
-            <img src="./Images/Coding.jpg" alt="AI generated image from pixabay.">
-            <button>Send me money!</button>
         </div>
 
+        <div class="hero">
+            <div class="hero-container">
+                <div class="info">
+                    <div class="main-text"> Who is Jo3l?</div> 
+                    <!-- Adding a little bit of subtext, which is going to be smaller than the header -->
+                    <div class="subtext">
+                        I am Joel, and I like learning new programming languages which is exactly what I am doing right now.
+                        Use The Odin Project, It is a good website for learning HTML and CSS, I have learnt a lot within the past few months 
+                        that I have been using the website. 
+                    </div>
+                    <button class="sme-button">Send me money!</button>
+                </div> 
+                <!-- Adding an image -->
+                <img src="./Images/Coding.jpg" alt="AI generated image from pixabay.">
+            </div>
+        </div>    
+        
         <div class="container">
             <div class= "text">Some stuff I know</div>
             <!-- Putting images in a container -->
@@ -52,15 +58,16 @@
         </div>
 
         <!-- Adding an Advertisement about a website -->
-         <div class="advert">
+        <div class="advert">
             Join The Odin Project Today!
             <div class="smalltext">
                 The Odin Project is an open-source, full-stack web development curriculum designed to provide a comprehensive path for learning web development.</div>
-            <button>sign up</button>
-         </div>
+                <button>sign up</button>
+            </div>
+        </div>
 
-         <div class="footer">
+        <div class="footer">
             Copyright © iamJo3l 2024
-         </div>
+        </div>
     </body>
 </html>
