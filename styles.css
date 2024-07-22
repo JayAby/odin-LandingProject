@@ -1,14 +1,36 @@
-.header{
+.header,
+.footer{
     background-color: #1f2937;
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: bolder;
+
 }
 
-.subtext,
-.links{
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.container,
+.advert{
+    background-color: #f9faf8;
 }
 
 img{
@@ -17,7 +39,7 @@ img{
 }
 
 ul{
-    list-style-type: none;
+    list-style: none;
 }
 
 a{
